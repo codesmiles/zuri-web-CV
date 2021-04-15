@@ -107,13 +107,20 @@ li{
 margin-bottom: 1em;
 }
 
+.c-links{
+    list-style-type: none;
+}
+
 @media screen and (max-width:950px) {
 .cv{
     display:flex;
     flex-direction:column;
     justify-content: center;
     padding:2em;
-}    
+} 
+/* header{
+    display:flex;
+}    */
 
 .left,.right{
     width:100%;
@@ -122,6 +129,14 @@ margin-bottom: 1em;
     border: none;
 }
 img{
-   left:42%; 
+   /* left:42%;  */
+left:0;
+
+}
+h2.intern {
+    margin-top: 7em;
+}
+h1 {
+    text-align: center;
 }
 }
