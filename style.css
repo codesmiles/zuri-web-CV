@@ -55,9 +55,12 @@ h2{
     border-color:#dce0e7;
 }
 
+.profile-picture{
+    position: relative;
+}
 img{
     position:absolute;
-    top:5%;
+    top:-4em;
     left:46%;
     border-radius:50%;
     width:8em;
@@ -117,5 +120,8 @@ margin-bottom: 1em;
 }
 .right{
     border: none;
+}
+img{
+   left:42%; 
 }
 }
